@@ -17,8 +17,8 @@ mongoose
   .then(() => {
     console.log('Successfully connected to MongoDB!')
     // Start the server once the connection is established
-    app.listen(process.env.PORT || 3000, () => {
-      console.log('Server started on port 3000')
+    app.listen(process.env.PORT || 3001, () => {
+      console.log('Server started on port 3001')
     })
   })
   .catch((e) => {
