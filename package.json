@@ -12,8 +12,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "NODE_ENV=development nodemon server.js",
-    "prod": "NODE_ENV=production node server.js",
-    "build": "cd client && rm -rf build && npm install && npm run build"
+    "prod": "NODE_ENV=production node server.js"
   },
   "name": "project2",
   "description": "<!-- ![Artwork Collection Directory]() -->",
